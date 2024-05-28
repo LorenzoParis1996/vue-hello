@@ -10,8 +10,17 @@
 </head>
 
 <body>
+    <div id="app">
+        <h1>{{ message }}</h1>
+        <label for="messaggio">Cambia il testo</label>
+        <input id="messaggio" type="text" v-model="message">
+        <label for="foto">Cambia foto tramite url</label>
+        <input id="foto" type="text" v-model="image">
 
-    <h1 id="app">{{ message }}</h1>
+        <div>
+            <img :src="image">
+        </div>
+    </div>
 
     <script src="./js/vue-hello.js"></script>
 </body>
