@@ -11,3 +11,7 @@ Aggiungiamo la possibilita' di modificare in tempo reale con un input sia l'h1 c
 
 Bonus Special:
 Al click sull'immagine facciamo succedere qualcosa di creativo!
+
+- importo Vue nel head del HTML
+- creo in una variabile locale una funzione, che sara' Vue variabile globale
+- scrivo la funzione per stampare cio'che richiede nel HTML
