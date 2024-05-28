@@ -4,4 +4,9 @@ img {
 
 div {
     text-align: center;
+    padding: 1rem;
+}
+
+label {
+    padding: 0 1rem;
 }
